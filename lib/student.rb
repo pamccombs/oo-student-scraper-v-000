@@ -6,6 +6,8 @@ class Student
 
   def initialize(student_hash)
     
+    
+    
   end
 
   def self.create_from_collection(students_array)
