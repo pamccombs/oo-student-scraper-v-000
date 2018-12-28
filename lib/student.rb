@@ -15,7 +15,7 @@ class Student
 
   def self.create_from_collection(students_array)
     
-    
+    Scraper.self
     
   end
 
