@@ -9,6 +9,8 @@ class Student
     student_hash.each {|attribute, value|
       
       self.send("#{attribute}=", value)}
+      
+      
     
   end
 
