@@ -6,9 +6,14 @@ class Student
 
   def initialize(student_hash)
     
-    @name = student_hash[:name]
-    @location = student_hash[:location]
+    #@name = student_hash[:name]
+    #@location = student_hash[:location]
     
+    
+    student_hash.each { |attribute, value|
+      self.send("#{attribute}=", value)}
+      
+      
       @@all << self
     
   end
