@@ -10,7 +10,7 @@ class Student
       
       self.send("#{attribute}=", value)}
       
-      
+      @@all << self
     
   end
 
